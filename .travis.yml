@@ -20,3 +20,6 @@ notifications:
       -rmuzrrr@gmail.com
     on_success: never # default: change
     on_failure: always # default: always
+    env:
+      global:
+        - CODECOV_TOKEN="a012636a-e88f-4561-9d2a-74d864cdb534"
